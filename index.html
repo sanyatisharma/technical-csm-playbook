@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VerifyFlow — CSM Frameworks for Technical Infrastructure Products</title>
+<title>Technical CSM Playbook — Three Frameworks for Customer Success in Technical Infrastructure</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Sora:wght@300;400;500&display=swap');
 
@@ -21,8 +21,9 @@ body{font-family:var(--sans);background:var(--paper);color:var(--ink);font-size:
 
 .masthead{max-width:720px;margin:0 auto;padding:4rem 2rem 0;}
 .masthead-eyebrow{font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3);margin-bottom:1.25rem;}
-.masthead h1{font-family:var(--serif);font-size:clamp(2.4rem,6vw,3.6rem);font-weight:500;line-height:1.1;color:var(--ink);margin-bottom:1.25rem;letter-spacing:-.01em;}
+.masthead h1{font-family:var(--serif);font-size:clamp(2.4rem,6vw,3.6rem);font-weight:500;line-height:1.1;color:var(--ink);margin-bottom:1rem;letter-spacing:-.01em;}
 .masthead h1 em{font-style:italic;color:var(--green-mid);}
+.masthead-subtitle{font-family:var(--serif);font-size:1.2rem;color:var(--ink2);font-style:italic;line-height:1.4;margin-bottom:1.5rem;}
 .author-note{font-size:13px;color:var(--ink2);max-width:540px;line-height:1.8;padding:1.25rem 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);margin-bottom:3rem;}
 .author-note strong{color:var(--ink);font-weight:500;}
 
@@ -32,6 +33,12 @@ body{font-family:var(--sans);background:var(--paper);color:var(--ink);font-size:
 .section-head{flex:1;}
 .section-head h2{font-family:var(--serif);font-size:1.75rem;font-weight:500;color:var(--ink);line-height:1.2;margin-bottom:.2rem;}
 .section-head p{font-size:13px;color:var(--ink3);font-style:italic;}
+
+.section-intro{font-size:13px;color:var(--ink2);line-height:1.85;margin-bottom:2rem;padding:1.25rem 1.5rem;background:var(--paper2);border-radius:var(--rlg);border-left:3px solid var(--green-mid);}
+.section-intro p{margin-bottom:.85rem;}
+.section-intro p:last-child{margin-bottom:0;}
+.section-intro em{color:var(--ink);font-style:italic;}
+.section-intro strong{color:var(--ink);font-weight:500;}
 
 .score-display{display:flex;align-items:center;gap:2rem;background:var(--paper2);border:1px solid var(--rule);border-radius:var(--rlg);padding:1.5rem;margin-bottom:1.5rem;}
 .score-ring{flex-shrink:0;width:96px;height:96px;border-radius:50%;border:3px solid var(--rule);display:flex;flex-direction:column;align-items:center;justify-content:center;transition:border-color .3s;}
@@ -115,10 +122,13 @@ footer{max-width:720px;margin:0 auto;padding:1.5rem 2rem 3rem;border-top:1px sol
 <body>
 
 <div class="masthead">
-  <div class="masthead-eyebrow">Independent portfolio project &nbsp;&middot;&nbsp; Sanyati Sharma &nbsp;&middot;&nbsp; 2026</div>
-  <h1>Three frameworks for<br><em>customer success</em> in<br>technical infrastructure</h1>
+  <div class="masthead-eyebrow">Independent portfolio project, built for learning and exploration &nbsp;&middot;&nbsp; Not affiliated with any company &nbsp;&middot;&nbsp; Sanyati Sharma &nbsp;&middot;&nbsp; 2026</div>
+  <h1>Technical CSM<br><em>Playbook</em></h1>
+  <p class="masthead-subtitle">Three frameworks for customer success in technical infrastructure products</p>
   <p class="author-note">
-    I built this after spending time studying how CSMs operate in technical B2B infrastructure companies &mdash; specifically the parts that require original judgment rather than product knowledge: <strong>how to evaluate account health before a customer tells you something is wrong</strong>, <strong>how to structure your first 90 days so you&rsquo;re owning accounts rather than shadowing them</strong>, and <strong>how to run a client relationship so problems reach you while they&rsquo;re still small</strong>. These are my frameworks, not summaries of anyone else&rsquo;s.
+    After learning more about technical infrastructure products and customer success, I built this independent playbook to think through how I would create value as a CSM after the sale: <strong>diagnosing customer issues, supporting onboarding, tracking account health, and communicating ROI clearly</strong>.
+    <br><br>
+    I built this to connect my background in data analysis, stakeholder support, and strategic partnerships with the customer success motion in technical B2B products &mdash; not as a product clone, but as my own thinking framework for the role.
   </p>
 </div>
 
@@ -126,9 +136,114 @@ footer{max-width:720px;margin:0 auto;padding:1.5rem 2rem 3rem;border-top:1px sol
   <div class="section-marker">
     <div class="section-num">01</div>
     <div class="section-head">
-      <h2>Account health scorecard</h2>
-      <p>A weighted signal model for identifying account risk before the customer raises it</p>
+      <h2>Framework 1: Trust &amp; Diagnosis Loop</h2>
+      <p>How I would handle customer issues with honesty, structure, and context before escalating.</p>
     </div>
+  </div>
+
+  <div class="section-intro">
+    <p>When a customer raises an issue, my job as a CSM would not be to immediately solve everything or pretend to know the answer. <strong>My job would be to slow the problem down, ask the right questions, identify the type of issue, and create a clear path to resolution.</strong></p>
+    <p>I would want customers to feel heard and supported, while also making sure Product and Engineering receive clear context, patterns, and evidence instead of vague one-off complaints.</p>
+    <p>The strongest CSMs build trust by being honest, specific, and reliable: <em>&ldquo;I don&rsquo;t know yet, but I&rsquo;ll find out and come back with a clear answer.&rdquo;</em></p>
+  </div>
+
+  <div class="phase-card">
+    <div class="phase-header" onclick="togglePhase(this)">
+      <div class="phase-pip" style="background:#e6f0fb;color:#0c447c;">1</div>
+      <div class="phase-info">
+        <div class="phase-title">Earn trust before I need it</div>
+        <div class="phase-range">Trust is often built in calm periods, so there&rsquo;s something to draw on when something goes wrong.</div>
+      </div>
+      <span class="phase-focus" style="background:#e6f0fb;color:#0c447c;">Trust</span>
+      <span class="phase-chevron open">&#9662;</span>
+    </div>
+    <div class="phase-body open">
+      <div class="phase-principle">My goal would be to be a steady, reliable presence between issues &mdash; not just someone who appears when things break. The relationship I would build during calm periods is what tends to make harder conversations easier later.</div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Be useful before I&rsquo;m asked. Sharing a benchmark, a workaround, or a relevant release note is often what helps a customer feel comfortable reaching out later.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Do what I said, by when I said. Reliability on small commitments often earns the benefit of the doubt on larger ones.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Say &ldquo;I don&rsquo;t know yet, I&rsquo;ll find out&rdquo; instead of bluffing. I would rather be honest about a gap than guess and lose credibility.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Get to know the customer as people, not as a logo &mdash; who&rsquo;s under pressure internally, who actually makes decisions, what a win looks like for them personally.</div></div>
+    </div>
+  </div>
+
+  <div class="phase-card">
+    <div class="phase-header" onclick="togglePhase(this)">
+      <div class="phase-pip" style="background:#eaf4ee;color:#1a5c38;">2</div>
+      <div class="phase-info">
+        <div class="phase-title">Diagnose the real issue, not just the reported one</div>
+        <div class="phase-range">The reported problem and the underlying problem are not always the same thing.</div>
+      </div>
+      <span class="phase-focus" style="background:#eaf4ee;color:#1a5c38;">Diagnose</span>
+      <span class="phase-chevron">&#9662;</span>
+    </div>
+    <div class="phase-body">
+      <div class="phase-principle">Customers tend to describe symptoms in the language of their frustration. &ldquo;The product is slow&rdquo; may indicate a real latency issue, a training gap, or a workflow the product was never built to support. My goal would be to figure out the type of issue before suggesting a fix &mdash; user training, workflow confusion, technical bug, adoption issue, or product gap.</div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Ask what the customer was trying to accomplish when the issue came up. The goal behind the complaint is often the thing that actually needs solving.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Separate the technical fact from the business impact. &ldquo;It takes eight seconds to complete&rdquo; and &ldquo;my team is skipping the step&rdquo; can be different problems with different solutions.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Ask what they have already tried. It shows how they think about the product and helps me avoid suggesting something that has already failed.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Restate the issue in my own words and confirm I have it right before proposing anything. A lot of misalignment can be caught right here.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Identify the category: user training, workflow confusion, technical bug, adoption issue, or product gap. Each one routes to a different next step.</div></div>
+    </div>
+  </div>
+
+  <div class="phase-card">
+    <div class="phase-header" onclick="togglePhase(this)">
+      <div class="phase-pip" style="background:#fdf3e7;color:#7c4a0f;">3</div>
+      <div class="phase-info">
+        <div class="phase-title">Route it carefully &mdash; bring patterns, not just complaints</div>
+        <div class="phase-range">Owning an account often means making sure something gets solved, not solving all of it yourself.</div>
+      </div>
+      <span class="phase-focus" style="background:#fdf3e7;color:#7c4a0f;">Collaborate</span>
+      <span class="phase-chevron">&#9662;</span>
+    </div>
+    <div class="phase-body">
+      <div class="phase-principle">When I do need to bring an issue to Product, Engineering, or Sales, I would want to do it in a way that respects everyone&rsquo;s time. That means bringing context, evidence, and patterns instead of a forwarded complaint &mdash; and staying accountable for the outcome even after the issue leaves my hands.</div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Bring Engineering a reproducible case &mdash; steps, expected vs. actual, account context &mdash; instead of a forwarded complaint. The CSM is often the translation layer between customer language and technical detail.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Bring Product a pattern with evidence. &ldquo;Three accounts in the same segment hit this&rdquo; supports the conversation in a way a one-off feature request usually does not.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Give Sales the context before the customer does. A renewal or expansion conversation tends to go better when Sales already knows where the relationship actually stands.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Try not to hand off silently. The customer should hear what&rsquo;s happening from me first &mdash; staying a clear point of contact helps protect ownership of the account.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Commit to a realistic timeline, not a hopeful one. An &ldquo;update by Thursday&rdquo; I can keep is more helpful than a &ldquo;soon&rdquo; I cannot.</div></div>
+    </div>
+  </div>
+
+  <div class="phase-card">
+    <div class="phase-header" onclick="togglePhase(this)">
+      <div class="phase-pip" style="background:#eef1f4;color:#3f4654;">4</div>
+      <div class="phase-info">
+        <div class="phase-title">Close the loop &mdash; credibility tends to compound</div>
+        <div class="phase-range">The handoff feels done when the customer has the answer, not when an internal team picks it up.</div>
+      </div>
+      <span class="phase-focus" style="background:#eef1f4;color:#3f4654;">Return</span>
+      <span class="phase-chevron">&#9662;</span>
+    </div>
+    <div class="phase-body">
+      <div class="phase-principle">Every loop I close cleanly can make the next conversation easier. Every loop left open &mdash; even with a good internal reason &mdash; risks the customer feeling like they had to chase me. This step is where the trust from step one gets either renewed or quietly spent down.</div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Come back even when the answer is &ldquo;not on the roadmap right now.&rdquo; A clear no, delivered by me, is usually better than silence the customer has to interpret.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Translate the internal response into the customer&rsquo;s language and impact &mdash; what it means for their workflow, not what the ticket said.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Document what I learned on the account record &mdash; the issue, the resolution, the open threads. It helps the relationship survive me being out for a week.</div></div>
+      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Then go back to step one. A customer who has watched me close a loop well is more likely to tell me about the next issue while it is still small.</div></div>
+    </div>
+  </div>
+
+  <div class="north-star">
+    <div class="ns-label">Why this matters to me</div>
+    <div class="ns-text">A customer who trusts me may tell me about a problem while it is still small. That early signal is one of the strongest advantages a CSM can have &mdash; and it depends on the relationship being built before the issue exists.</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-marker">
+    <div class="section-num">02</div>
+    <div class="section-head">
+      <h2>Framework 2: Account Health Scorecard</h2>
+      <p>Turning usage, adoption, support, and value signals into proactive CSM action.</p>
+    </div>
+  </div>
+
+  <div class="section-intro">
+    <p>This is how I would think about reading account health as a CSM. The scorecard combines a handful of signals &mdash; usage, adoption, friction, engagement, and whether the customer can articulate their ROI &mdash; into a single picture I could act on.</p>
+    <p>Account health should not just be a dashboard number. <strong>I would use it to understand who needs training, who needs executive alignment, who has an adoption gap, and who may be ready for expansion.</strong></p>
+    <p><em>Try the sliders below to see how each signal shifts the recommended action.</em></p>
   </div>
 
   <div class="score-display">
@@ -144,7 +259,7 @@ footer{max-width:720px;margin:0 auto;padding:1.5rem 2rem 3rem;border-top:1px sol
 
   <div class="signals">
     <div class="signal-row">
-      <div><div class="signal-name">Verification / usage rate</div><div class="signal-weight">Weight: 30% &mdash; the core value signal</div></div>
+      <div><div class="signal-name">Product usage rate</div><div class="signal-weight">Weight: 30% &mdash; one of the clearest value signals</div></div>
       <input type="range" min="0" max="100" step="5" value="85" id="s-usage" oninput="recalc()">
       <div class="signal-val" id="sv-usage">85%</div>
     </div>
@@ -159,17 +274,17 @@ footer{max-width:720px;margin:0 auto;padding:1.5rem 2rem 3rem;border-top:1px sol
       <div class="signal-val" id="sv-locs">75%</div>
     </div>
     <div class="signal-row">
-      <div><div class="signal-name">Override / bypass rate</div><div class="signal-weight">Weight: 15% &mdash; lower is better; high override = friction or resistance</div></div>
+      <div><div class="signal-name">Override / bypass rate</div><div class="signal-weight">Weight: 15% &mdash; lower is often better; a high rate may indicate friction</div></div>
       <input type="range" min="0" max="50" step="2" value="12" id="s-override" oninput="recalc()">
       <div class="signal-val" id="sv-override">12%</div>
     </div>
     <div class="signal-row">
-      <div><div class="signal-name">CSM engagement responsiveness</div><div class="signal-weight">Weight: 20% &mdash; disengaged customer = risk regardless of usage</div></div>
+      <div><div class="signal-name">CSM engagement responsiveness</div><div class="signal-weight">Weight: 20% &mdash; a disengaged customer can be a risk regardless of usage</div></div>
       <input type="range" min="0" max="100" step="5" value="70" id="s-engage" oninput="recalc()">
       <div class="signal-val" id="sv-engage">70</div>
     </div>
     <div class="toggle-row">
-      <div><div class="signal-name">Customer can articulate ROI</div><div class="signal-weight">Bonus: +10 &mdash; the strongest renewal signal</div></div>
+      <div><div class="signal-name">Customer can articulate ROI</div><div class="signal-weight">Bonus: +10 &mdash; one strong signal for renewal</div></div>
       <div class="toggle-btns">
         <button class="toggle-btn on" id="roi-yes" onclick="setROI(true)">Yes</button>
         <button class="toggle-btn" id="roi-no" onclick="setROI(false)">No</button>
@@ -180,35 +295,44 @@ footer{max-width:720px;margin:0 auto;padding:1.5rem 2rem 3rem;border-top:1px sol
 
   <div class="actions-title">Recommended actions for this account</div>
   <div id="action-list"></div>
+
+  <div class="north-star">
+    <div class="ns-label">How I would use this scorecard</div>
+    <div class="ns-text">Usage rate per agreement is one of the clearest early signals of whether the customer is getting value, but I would always interpret it alongside context. The score is a starting point for a conversation, not the conversation itself.</div>
+  </div>
 </div>
 
 <div class="section">
   <div class="section-marker">
-    <div class="section-num">02</div>
+    <div class="section-num">03</div>
     <div class="section-head">
-      <h2>30-60-90 day CSM playbook</h2>
-      <p>A personal framework for moving from learning to owning in a technical CSM role</p>
+      <h2>Framework 3: 30-60-90 Day CSM Playbook</h2>
+      <p>How I would ramp thoughtfully in a technical CSM role: learn first, contribute carefully, then own accounts with confidence.</p>
     </div>
+  </div>
+
+  <div class="section-intro">
+    <p>This is the plan I would follow in my first 90 days as a technical CSM. The goal would be to learn the product and the customer deeply before trying to contribute, and to grow into account ownership steadily &mdash; not to come in pretending I already know the role.</p>
   </div>
 
   <div class="phase-card">
     <div class="phase-header" onclick="togglePhase(this)">
       <div class="phase-pip" style="background:#e6f0fb;color:#0c447c;">1</div>
       <div class="phase-info">
-        <div class="phase-title">Days 1&ndash;30 &mdash; learn without performing</div>
-        <div class="phase-range">The instinct to contribute early is the biggest mistake. Resist it.</div>
+        <div class="phase-title">Days 1&ndash;30 &mdash; learn before contributing</div>
+        <div class="phase-range">The instinct to contribute too quickly can backfire if I have not yet learned the product, customer workflow, and internal handoffs.</div>
       </div>
       <span class="phase-focus" style="background:#e6f0fb;color:#0c447c;">Learn</span>
       <span class="phase-chevron open">&#9662;</span>
     </div>
     <div class="phase-body open" id="body-0">
-      <div class="phase-principle">A CSM who helps before they understand gives bad advice and loses credibility fast. The first 30 days are for building the foundation that every customer interaction will sit on &mdash; not for impressing anyone.</div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Go through the entire product as a customer &mdash; not a demo, an actual end-to-end experience. Note every moment of friction and every assumption the product makes about the user&rsquo;s workflow.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Read the API documentation completely. Understand what data is returned, what each endpoint does, and where customers historically get stuck &mdash; before you&rsquo;re on a call where they ask.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Shadow at least 10 customer calls across different segments. Write down every question customers ask twice. Patterns in repeated questions are usually unmet onboarding needs, not customer confusion.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Map the portfolio before touching it: high-value accounts, at-risk accounts, expansion candidates, and accounts that haven&rsquo;t reached their contracted use case yet.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Meet Engineering, Product, and Sales separately. Ask each: &ldquo;Where does the handoff from you to CS usually break down?&rdquo; The answers will differ. That delta is where your job actually lives.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Define what &ldquo;healthy&rdquo; looks like per customer segment &mdash; usage benchmarks, time-to-first-value, active user thresholds &mdash; before inheriting accounts so you have a baseline to evaluate against.</div></div>
+      <div class="phase-principle">My first month would focus on understanding the product, customers, internal teams, onboarding process, common blockers, and what &ldquo;healthy&rdquo; actually looks like &mdash; building the foundation that every customer interaction will sit on.</div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Go through the entire product as a customer would &mdash; not a demo, an actual end-to-end experience. Note moments of friction and assumptions the product makes about the user&rsquo;s workflow.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Read the API documentation completely. Understand what data is returned, what each endpoint does, and where customers historically get stuck &mdash; before I&rsquo;m on a call where they ask.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Shadow customer calls across different segments. Write down questions customers ask more than once. Repeated questions often point to onboarding gaps, not customer confusion.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Map the portfolio before touching it: high-value accounts, at-risk accounts, expansion candidates, and accounts that have not yet reached their contracted use case.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Meet Engineering, Product, and Sales separately. Ask each: &ldquo;Where does the handoff from you to CS usually break down?&rdquo; The answers tend to differ, and that difference is often where the CSM job actually lives.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Define what &ldquo;healthy&rdquo; looks like per customer segment &mdash; usage benchmarks, time-to-first-value, active user thresholds &mdash; so I have a baseline to evaluate against.</div></div>
       <div class="phase-progress">
         <div class="progress-bar-bg"><div class="progress-bar-fill" id="prog-0" style="width:0%"></div></div>
         <div class="progress-label" id="prog-lbl-0">0 of 6</div>
@@ -220,20 +344,20 @@ footer{max-width:720px;margin:0 auto;padding:1.5rem 2rem 3rem;border-top:1px sol
     <div class="phase-header" onclick="togglePhase(this)">
       <div class="phase-pip" style="background:#eaf4ee;color:#1a5c38;">2</div>
       <div class="phase-info">
-        <div class="phase-title">Days 31&ndash;60 &mdash; contribute with a safety net</div>
-        <div class="phase-range">Own accounts with support. Debrief every call. Build your first internal deliverable.</div>
+        <div class="phase-title">Days 31&ndash;60 &mdash; contribute with support</div>
+        <div class="phase-range">Start owning small pieces of accounts with backup, run my first onboarding, and identify patterns from customer conversations.</div>
       </div>
       <span class="phase-focus" style="background:#eaf4ee;color:#1a5c38;">Contribute</span>
       <span class="phase-chevron">&#9662;</span>
     </div>
     <div class="phase-body" id="body-1">
-      <div class="phase-principle">The goal isn&rsquo;t to prove you can do the job &mdash; it&rsquo;s to do the job in a way where mistakes are recoverable. Take ownership of 2&ndash;3 accounts, run your first full onboarding, and debrief with your manager after each one.</div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Take ownership of 2&ndash;3 active accounts. Start with a discovery call that treats the relationship as new even if it isn&rsquo;t &mdash; ask what&rsquo;s working, what&rsquo;s not, and what they wish the product did differently.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Run a full onboarding end-to-end for one new customer: kickoff through first successful use. Document friction points. The ones you find in your first onboarding will be the same ones every new customer hits.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Build a health scorecard for your accounts using real usage data. Knowing which accounts are at risk before they are is the entire job &mdash; start building that muscle now.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Identify one pattern surfacing across multiple customer conversations and bring it to Product as a structured observation &mdash; specific, supported by more than one example, with enough context to evaluate against the roadmap.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Build or improve one internal resource: an onboarding template, a training guide for a specific segment, or an FAQ from the questions you heard most in month one. Institutional knowledge that lives only in your head is fragile.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">For any account below usage target, diagnose before prescribing. Workflow friction, champion loss, technical barrier, and value mismatch each have different solutions &mdash; and the wrong solution makes it worse.</div></div>
+      <div class="phase-principle">In the second month, I would start contributing carefully &mdash; taking on a couple of accounts with support, running an onboarding end-to-end, improving an internal resource, and beginning to identify patterns from customer conversations. The goal would be to do the job in a way where mistakes are recoverable.</div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Take ownership of 2&ndash;3 active accounts. Start each with a discovery call that treats the relationship as new &mdash; ask what is working, what is not, and what they wish the product did differently.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Run a full onboarding end-to-end for one new customer: kickoff through first successful use. Document friction points &mdash; the ones I find first often turn out to be the same ones every new customer hits.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Start building a health view for my accounts using real usage data. Spotting risk before the customer raises it is core to the role &mdash; this is where I would begin building that muscle.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Bring Product one pattern I&rsquo;m seeing across customer conversations &mdash; specific, supported by more than one example, with enough context to evaluate against the roadmap.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Build or improve one internal resource &mdash; an onboarding template, a segment-specific training guide, or an FAQ from the questions I heard most. Institutional knowledge that lives only in one person&rsquo;s head can be fragile.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">For any account below usage target, diagnose before prescribing. Workflow friction, champion loss, technical barrier, and value mismatch can each have different solutions.</div></div>
       <div class="phase-progress">
         <div class="progress-bar-bg"><div class="progress-bar-fill" id="prog-1" style="width:0%"></div></div>
         <div class="progress-label" id="prog-lbl-1">0 of 6</div>
@@ -245,129 +369,31 @@ footer{max-width:720px;margin:0 auto;padding:1.5rem 2rem 3rem;border-top:1px sol
     <div class="phase-header" onclick="togglePhase(this)">
       <div class="phase-pip" style="background:#fdf3e7;color:#7c4a0f;">3</div>
       <div class="phase-info">
-        <div class="phase-title">Days 61&ndash;90 &mdash; own it, don&rsquo;t just manage it</div>
-        <div class="phase-range">Full portfolio ownership. At least one expansion conversation. Proactive, not reactive.</div>
+        <div class="phase-title">Days 61&ndash;90 &mdash; own accounts with confidence</div>
+        <div class="phase-range">Move toward full portfolio ownership, support QBRs, find genuine expansion paths, and bring customer intelligence back to Product.</div>
       </div>
       <span class="phase-focus" style="background:#fdf3e7;color:#7c4a0f;">Own</span>
       <span class="phase-chevron">&#9662;</span>
     </div>
     <div class="phase-body" id="body-2">
-      <div class="phase-principle">Managing accounts is answering when customers call. Owning accounts is knowing what they need before they call. By day 90 that distinction should be visible in how you run your portfolio &mdash; in the conversations you&rsquo;re initiating, not just responding to.</div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Run full quarterly business reviews for assigned accounts. Lead with their ROI data &mdash; specific to their numbers, not industry averages &mdash; before any conversation about the product or the contract.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Identify at least one genuine expansion opportunity per account. Not an upsell &mdash; an expansion that makes the customer more successful. The distinction matters in how you pitch it and whether it sticks.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Build a proactive monitoring cadence using health signals. The accounts you check in on before they contact you are the ones that renew. The accounts you only hear from when there&rsquo;s a problem are the ones that churn.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Deliver one meaningful piece of customer intelligence to Product &mdash; not a feature request, a pattern. &ldquo;Three customers in the same segment use the override feature for the same reason&rdquo; is actionable. &ldquo;A customer wants a new feature&rdquo; is not.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Document each account: workflow, key contacts, version of success, known risks, open threads. Account knowledge that only exists in your head is not an asset &mdash; it&rsquo;s a liability for the team.</div></div>
-      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Start the renewal conversation 60 days before contract end. Lead with their ROI story. A renewal conversation that begins with the contract date is already late.</div></div>
+      <div class="phase-principle">By the third month, I would aim to be running my portfolio more confidently &mdash; supporting QBRs, identifying genuine expansion opportunities, and bringing customer intelligence back to Product. The shift would be from responding to customers to anticipating what they need.</div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Run full quarterly business reviews for assigned accounts. Lead with the customer&rsquo;s specific ROI data &mdash; their numbers, not industry averages &mdash; before any conversation about product or contract.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Identify at least one genuine expansion opportunity per account &mdash; not an upsell, but an expansion that helps the customer become more successful. The framing often matters as much as the offer.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Build a proactive monitoring cadence using health signals. Reaching out before the customer contacts me helps shift the relationship from reactive to proactive.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Deliver one piece of meaningful customer intelligence to Product &mdash; a pattern with evidence, not a one-off feature request. &ldquo;Three customers in the same segment use this workaround for the same reason&rdquo; supports the conversation in a way a single request usually does not.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Document each account: workflow, key contacts, version of success, known risks, open threads. Account knowledge that only lives in my head can become a liability for the team.</div></div>
+      <div class="check-item"><div class="check-box" onclick="tick(this)"></div><div class="check-text">Start renewal conversations 60 days before contract end. Lead with the customer&rsquo;s ROI story &mdash; a renewal conversation that begins at the contract date often turns out to be too late.</div></div>
       <div class="phase-progress">
         <div class="progress-bar-bg"><div class="progress-bar-fill" id="prog-2" style="width:0%"></div></div>
         <div class="progress-label" id="prog-lbl-2">0 of 6</div>
       </div>
     </div>
   </div>
-
-  <div class="north-star">
-    <div class="ns-label">The north star metric for any technical infrastructure CSM</div>
-    <div class="ns-text">Usage rate per agreement is the only number that can&rsquo;t lie. A customer at 95% is getting value and will renew. A customer at 40% has a problem that needs diagnosing before it becomes a churn conversation you&rsquo;re losing.</div>
-  </div>
-</div>
-
-<div class="section">
-  <div class="section-marker">
-    <div class="section-num">03</div>
-    <div class="section-head">
-      <h2>The trust-and-diagnosis loop</h2>
-      <p>How I build client trust, find the real issue, and bring in internal teams without losing ownership</p>
-    </div>
-  </div>
-
-  <div class="phase-card">
-    <div class="phase-header" onclick="togglePhase(this)">
-      <div class="phase-pip" style="background:#e6f0fb;color:#0c447c;">1</div>
-      <div class="phase-info">
-        <div class="phase-title">Earn trust before you need it</div>
-        <div class="phase-range">Trust isn&rsquo;t built during a crisis &mdash; it&rsquo;s spent during one.</div>
-      </div>
-      <span class="phase-focus" style="background:#e6f0fb;color:#0c447c;">Trust</span>
-      <span class="phase-chevron open">&#9662;</span>
-    </div>
-    <div class="phase-body open">
-      <div class="phase-principle">The relationship is an account you make deposits into during the calm periods so there&rsquo;s a balance to draw on when something breaks. A CSM who only appears when there&rsquo;s a problem has no credibility at the moment credibility matters most.</div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Be useful before you&rsquo;re asked. Send the benchmark, the workaround, the relevant release note &mdash; small, unprompted value is what makes a customer pick up the phone later.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Do what you said, by when you said. Reliability on small commitments is what earns you the benefit of the doubt on the large ones.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Say &ldquo;I don&rsquo;t know yet, I&rsquo;ll find out&rdquo; instead of bluffing. A customer who catches you guessing once will discount everything you say after it.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Learn the customer as people, not a logo &mdash; who&rsquo;s under pressure internally, who the real decision-maker is, what a win looks like for them personally.</div></div>
-    </div>
-  </div>
-
-  <div class="phase-card">
-    <div class="phase-header" onclick="togglePhase(this)">
-      <div class="phase-pip" style="background:#eaf4ee;color:#1a5c38;">2</div>
-      <div class="phase-info">
-        <div class="phase-title">Diagnose the real issue, not the reported one</div>
-        <div class="phase-range">The reported problem and the real problem are rarely the same sentence.</div>
-      </div>
-      <span class="phase-focus" style="background:#eaf4ee;color:#1a5c38;">Diagnose</span>
-      <span class="phase-chevron">&#9662;</span>
-    </div>
-    <div class="phase-body">
-      <div class="phase-principle">Customers describe symptoms in the language of their frustration. &ldquo;The product is slow&rdquo; might mean a real latency issue, a training gap, or a workflow the product was never built to support. Prescribing before you&rsquo;ve diagnosed is how you lose trust and time at once.</div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Ask what they were trying to accomplish when the problem came up &mdash; the goal behind the complaint is usually the thing that actually needs solving.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Separate the technical fact from the business impact. &ldquo;Verifications take eight seconds&rdquo; and &ldquo;my staff are skipping the step&rdquo; are different problems with different fixes.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Ask what they&rsquo;ve already tried. It shows you how they think about the product and stops you from suggesting the thing that already failed.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Restate the problem in your own words and get an explicit &ldquo;yes, that&rsquo;s it&rdquo; before proposing anything. Half of all misalignment dies right here.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Sort it into a category &mdash; workflow friction, training gap, technical barrier, value mismatch, or champion change. Each one routes to a different next step.</div></div>
-    </div>
-  </div>
-
-  <div class="phase-card">
-    <div class="phase-header" onclick="togglePhase(this)">
-      <div class="phase-pip" style="background:#fdf3e7;color:#7c4a0f;">3</div>
-      <div class="phase-info">
-        <div class="phase-title">Route it &mdash; know what&rsquo;s yours and what isn&rsquo;t</div>
-        <div class="phase-range">Owning an account means making sure it gets solved, not solving all of it yourself.</div>
-      </div>
-      <span class="phase-focus" style="background:#fdf3e7;color:#7c4a0f;">Collaborate</span>
-      <span class="phase-chevron">&#9662;</span>
-    </div>
-    <div class="phase-body">
-      <div class="phase-principle">The fastest way to lose an internal team&rsquo;s goodwill is to forward them a frustrated customer email and call it a handoff. Internal collaboration is a skill: you make the other team&rsquo;s job easy, and you stay accountable for the outcome even after it leaves your hands.</div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Bring Engineering a reproducible case &mdash; steps, expected vs. actual, account context &mdash; not a forwarded complaint. You&rsquo;re the translation layer between customer language and technical detail.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Bring Product a pattern, not a one-off. &ldquo;Three accounts in the same segment hit this&rdquo; gets traction; &ldquo;my customer wants X&rdquo; gets filed.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Give Sales the context before the customer does. A renewal or expansion conversation goes better when Sales already knows where the relationship actually stands.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Never hand off silently. The customer should hear what&rsquo;s happening from you first &mdash; staying the single point of contact is what keeps you the account owner.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Commit to a realistic timeline, not a hopeful one. An &ldquo;update by Thursday&rdquo; you can keep beats a &ldquo;soon&rdquo; you can&rsquo;t.</div></div>
-    </div>
-  </div>
-
-  <div class="phase-card">
-    <div class="phase-header" onclick="togglePhase(this)">
-      <div class="phase-pip" style="background:#eef1f4;color:#3f4654;">4</div>
-      <div class="phase-info">
-        <div class="phase-title">Close the loop &mdash; credibility compounds</div>
-        <div class="phase-range">The handoff is done when the customer has the answer, not when the internal team picks it up.</div>
-      </div>
-      <span class="phase-focus" style="background:#eef1f4;color:#3f4654;">Return</span>
-      <span class="phase-chevron">&#9662;</span>
-    </div>
-    <div class="phase-body">
-      <div class="phase-principle">Every loop you close cleanly makes the next trust deposit cheaper. Every loop you leave open &mdash; even with a perfectly good internal reason &mdash; the customer files as &ldquo;I had to chase them.&rdquo; This last step is where the trust from step one gets renewed or quietly spent down.</div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Come back even when the answer is &ldquo;not on the roadmap.&rdquo; A clear no, delivered by you, beats a silence the customer has to interpret.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Translate the internal response into their language and their impact &mdash; what it means for their workflow, not what the ticket said.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Write down what you learned on the account record &mdash; the issue, the resolution, the open threads. It&rsquo;s how the relationship survives you being out for a week.</div></div>
-      <div class="loop-point"><span class="loop-dash">&mdash;</span><div class="check-text">Then go back to step one. The customer who watched you close a loop well is the one who tells you about the next problem while it&rsquo;s still small.</div></div>
-    </div>
-  </div>
-
-  <div class="north-star">
-    <div class="ns-label">Why the loop is the actual job</div>
-    <div class="ns-text">A customer who trusts you tells you about the problem while it&rsquo;s still small. That early warning is the entire advantage of the role &mdash; and you only get it if the relationship was built before the problem existed.</div>
-  </div>
 </div>
 
 <footer>
-  <div class="f-left">VerifyFlow &mdash; three frameworks, not a product</div>
-  <div class="f-right">Sanyati Sharma &mdash; 2026<br>Independent learning project. Not affiliated with any company.</div>
+  <div class="f-left">Technical CSM Playbook &mdash; three frameworks, written as a learning project</div>
+  <div class="f-right">Sanyati Sharma &mdash; 2026<br>Independent portfolio project. Not affiliated with any company.</div>
 </footer>
 
 <script>
@@ -400,18 +426,18 @@ function recalc(){
   const desc=document.getElementById('score-desc');
   let col,lbl,dsc;
   if(score>=80){col='var(--green)';lbl='Healthy';dsc='Account is performing across core signals. Shift focus to expansion opportunities and renewal preparation.';}
-  else if(score>=60){col='var(--amber)';lbl='Needs attention';dsc='One or more signals are below target. Proactive check-in recommended before this becomes a support conversation.';}
-  else{col='var(--red)';lbl='At risk';dsc='Multiple weak signals. Prioritize an urgent, direct conversation to diagnose the root cause \u2014 not a check-in email.';}
+  else if(score>=60){col='var(--amber)';lbl='Needs attention';dsc='One or more signals are below target. A proactive check-in may help before this becomes a support conversation.';}
+  else{col='var(--red)';lbl='At risk';dsc='Multiple weak signals. A direct conversation to diagnose the root cause is likely more useful than a check-in email.';}
   ring.style.borderColor=col;num.style.color=col;status.style.color=col;status.textContent=lbl;desc.textContent=dsc;
   const actions=[];
-  if(usage<70)actions.push({p:'high',t:'Usage is below 70% \u2014 diagnose before prescribing. Is this a workflow mismatch, a training gap, a technical barrier, or has the internal champion changed? Each has a different solution and the wrong one makes it worse.'});
-  if(over>25)actions.push({p:'high',t:'Override rate above 25% signals friction or resistance. Pull the override reason codes. If staff are bypassing the product, it\u2019s because something in the workflow isn\u2019t working \u2014 find it before the manager does.'});
-  if(users<40)actions.push({p:'high',t:'Fewer than 40% of licensed seats are active. Adoption is shallow, not deep. Identify which staff haven\u2019t onboarded and understand why they haven\u2019t before deciding how to fix it.'});
-  if(eng<50)actions.push({p:'med',t:'Low engagement score means you\u2019re hearing from this account only when something is wrong. Schedule a relationship call \u2014 not a check-in, an actual conversation about their goals and what success looks like to them.'});
-  if(locs<60)actions.push({p:'med',t:'Less than 60% of locations are live. Map which branches are inactive and prioritize the highest-volume ones. A rollout that stalls at pilot usually means the pilot\u2019s results weren\u2019t communicated clearly enough internally.'});
-  if(!roiOn)actions.push({p:'med',t:'Customer cannot articulate their own ROI. This is a renewal risk regardless of usage numbers. Build a concrete value report from their specific data and present it before the next contract conversation \u2014 not during it.'});
-  if(score>=80&&roiOn)actions.push({p:'good',t:'Account is healthy and customer can articulate their ROI. This is expansion territory. Identify adjacent use cases, additional teams, or product modules that deliver incremental value \u2014 framed around their goals, not new features.'});
-  if(actions.length===0)actions.push({p:'good',t:'No critical signals flagged. Continue proactive monitoring and begin preparing the renewal case with their ROI data while the relationship is warm.'});
+  if(usage<70)actions.push({p:'high',t:'Usage is below 70% — worth diagnosing before prescribing. Is this a workflow mismatch, a training gap, a technical barrier, or has the internal champion changed? Each may have a different solution.'});
+  if(over>25)actions.push({p:'high',t:'Override rate above 25% may indicate friction or resistance. Pulling the override reason codes can help identify whether something in the workflow isn’t working before it escalates.'});
+  if(users<40)actions.push({p:'high',t:'Fewer than 40% of licensed seats are active. Adoption may be shallow rather than deep. Identifying which staff haven’t onboarded, and why, helps inform the right next step.'});
+  if(eng<50)actions.push({p:'med',t:'Low engagement score often means hearing from this account only when something is wrong. A relationship call — not a check-in, an actual conversation about their goals — can help reset that pattern.'});
+  if(locs<60)actions.push({p:'med',t:'Less than 60% of locations are live. Mapping which branches are inactive and prioritizing the highest-volume ones can help. A pilot that stalls often signals the results weren’t communicated clearly enough internally.'});
+  if(!roiOn)actions.push({p:'med',t:'Customer cannot articulate their own ROI yet. This can be a renewal risk regardless of usage numbers. Building a concrete value report from their specific data and sharing it before the next contract conversation supports the relationship.'});
+  if(score>=80&&roiOn)actions.push({p:'good',t:'Account is healthy and the customer can articulate their ROI. This may be expansion territory. Adjacent use cases, additional teams, or product modules that deliver incremental value can be framed around their goals.'});
+  if(actions.length===0)actions.push({p:'good',t:'No critical signals flagged. Continuing proactive monitoring and beginning to prepare the renewal case with their ROI data while the relationship is warm supports the next conversation.'});
   const map={high:'priority-high',med:'priority-med',good:'priority-good'};
   const lmap={high:'Urgent',med:'Action',good:'Opportunity'};
   document.getElementById('action-list').innerHTML=actions.map(a=>`<div class="action-item ${map[a.p]}"><div class="action-priority">${lmap[a.p]}</div><div class="action-text">${a.t}</div></div>`).join('');
@@ -433,8 +459,7 @@ function tick(box){
   const idx=['body-0','body-1','body-2'].indexOf(body.id);
   const total=body.querySelectorAll('.check-box').length;
   const done=body.querySelectorAll('.check-box.checked').length;
-  const pct=Math.round((done/total)*100);
-  document.getElementById('prog-'+idx).style.width=pct+'%';
+  document.getElementById('prog-'+idx).style.width=Math.round((done/total)*100)+'%';
   document.getElementById('prog-lbl-'+idx).textContent=done+' of '+total;
 }
 </script>

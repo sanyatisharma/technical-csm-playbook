@@ -1,22 +1,22 @@
-# VerifyFlow — CSM Toolkit
+# Technical CSM Playbook
 
-Three frameworks for customer success management in technical infrastructure products.
+An independent portfolio playbook exploring how I would support technical infrastructure customers through issue diagnosis, account health monitoring, onboarding, adoption, and value communication.
 
 **Live page:** https://sanyatisharma.github.io/verifyflow-csm-toolkit/
 
 ## What this is
 
-An independent portfolio project built around a fictional product called *VerifyFlow* — the kind of technical B2B infrastructure tool where CSM work is less about product training and more about original judgment. The three frameworks here cover the parts of the job that don't have a script: deciding which accounts are actually at risk, structuring your first 90 days as a new CSM, and running client relationships so problems reach you while they're still small.
+After learning more about technical infrastructure products and customer success, I built this independent playbook to think through how I would create value as a CSM after the sale — diagnosing customer issues, supporting onboarding, tracking account health, and communicating ROI clearly.
 
-These are my frameworks, written from scratch — not summaries or repackaging of anyone else's playbooks.
+I built it to connect my background in data analysis, stakeholder support, and strategic partnerships with the customer success motion in technical B2B products. It's a personal learning project — my own thinking framework — not a replica of any company's product.
 
-## The frameworks
+## The three frameworks
 
-**1. Account health scorecard.** A weighted signal model for evaluating account risk before the customer raises it. Interactive — sliders let you see how usage, adoption breadth, override rate, and engagement combine into a score, with recommended actions that change based on the inputs.
+**1. Trust & Diagnosis Loop.** How I would handle customer issues with honesty, structure, and context before escalating — slowing the problem down, identifying whether the issue is user training, workflow confusion, a technical bug, an adoption gap, or a product gap, and bringing patterns and evidence to Product and Engineering rather than vague one-off complaints.
 
-**2. 30-60-90 day CSM playbook.** A three-phase plan for moving from learning to owning in a technical CSM role: learn without performing in the first month, contribute with a safety net in the second, own the portfolio by the third. Each phase has a checklist you can tick through.
+**2. Account Health Scorecard.** An interactive model that turns usage, adoption, support, and value signals into proactive CSM action — usable to decide who needs training, who needs executive alignment, who has an adoption gap, and who may be ready for expansion.
 
-**3. The trust-and-diagnosis loop.** A four-step framework for the relational core of the job — earning trust before you need it, diagnosing the real issue beneath what a client reports, routing problems to the right internal team without losing ownership, and closing the loop so credibility compounds.
+**3. 30-60-90 Day CSM Playbook.** How I would ramp thoughtfully in a technical CSM role: learn first, contribute carefully, then own accounts with confidence — without coming in pretending to already know the role.
 
 ## How to view
 
@@ -24,4 +24,4 @@ The fastest way is the live link above. To run locally, clone the repo and open 
 
 ## About
 
-Built by Sanyati Sharma as an independent learning project. Not affiliated with any company. The *VerifyFlow* name and any product-specific signals (verifications, override rates) are illustrative — the frameworks themselves apply to any technical infrastructure CSM role.
+Built by Sanyati Sharma as an independent learning project. Not affiliated with any company. The frameworks are written to apply broadly to technical B2B infrastructure CSM roles.
