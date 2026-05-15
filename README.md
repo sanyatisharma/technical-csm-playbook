@@ -2,7 +2,7 @@
 
 An independent portfolio playbook exploring how I would support technical infrastructure customers through issue diagnosis, account health monitoring, onboarding, adoption, and value communication.
 
-**Live page:** https://sanyatisharma.github.io/verifyflow-csm-toolkit/
+**Live page:** https://sanyatisharma.github.io/technical-csm-playbook/
 
 ## What this is
 
